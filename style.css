@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  align-content: center;
+  margin: auto;
+  padding: 1%;
+}
+
+section {
+    display: grid;
+}
+
+article {
+    margin: 1% 1%;
+    padding: 1%;
+}
+
+/* Mise en forme des titres */
+
+header h1 {
+    
+    font-size: 2em;
+    background-color: #eee;
+    width: 100%;
+    text-align: center; 
+    padding: 10%;
+    margin-bottom: 5%;
+}
+
+section h2 {
+    padding: 1%;
+    font-size: 1.5em;
+    background-color: #ddd;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+section h3 {
+    padding: 1%;
+    font-size: 1.2em;
+    background-color: #eee;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+
+/* Mise en forme des boutons SAMI */
+
+.radio-container {
+    background: #fff;
+    border: 1px solid;
+    display: inline-block;
+    margin: 2% auto;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+  }
+
+.radio-container label {
+    background: transparent;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+    width: 18%;
+  }
+
+.radio-container input[type="radio"] {
+    display: none;
+  }
+
+  .radio-container input[type="radio"]:checked + label {
+    background: #adaeff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
